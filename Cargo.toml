@@ -1,5 +1,5 @@
 [package]
-name = "tree-sitter-prisma-io"
+name = "tree-sitter-prisma"
 description = "prisma grammar for the tree-sitter parsing library"
 version = "1.4.0"
 keywords = ["incremental", "parsing", "prisma"]
@@ -20,7 +20,7 @@ include = [
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter = "~0.20.0"
+tree-sitter = "0.24.0"
 
 [build-dependencies]
 cc = "1.0"

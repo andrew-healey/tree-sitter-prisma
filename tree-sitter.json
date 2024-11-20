@@ -1,0 +1,39 @@
+{
+  "grammars": [
+    {
+      "name": "prisma",
+      "camelcase": "Prisma",
+      "scope": "source.prisma",
+      "path": ".",
+      "file-types": [
+        "prisma"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ],
+      "injection-regex": "prisma"
+    }
+  ],
+  "metadata": {
+    "version": "1.4.0",
+    "license": "MIT",
+    "description": "Prisma Grammar with Tree Sitter",
+    "authors": [
+      {
+        "name": "Victor Quiroz Castro",
+        "email": "victorhqc@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/victorhqc/tree-sitter-prisma.git"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
